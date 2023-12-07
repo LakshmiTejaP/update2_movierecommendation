@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Movie Recommendations</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#movies">Movies</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="section">
+        <h1>Welcome to Movie Recommendations</h1>
+        <p>Discover and enjoy the best movies.</p>
+        <img src="images/movie-bg.jpg" alt="Movie Background">
+    </section>
+
+    <section id="movies" class="section">
+        <h2>Movie Recommendations</h2>
+        <!-- Add your movie recommendations here -->
+        <div class="movie-card">
+            <img src="images/movie1.jpg" alt="Movie 1">
+            <h3>Movie Title 1</h3>
+            <p>Description of the movie.</p>
+            <button class="watch-button">Watch</button>
+        </div>
+        <div class="movie-card">
+            <img src="images/movie2.jpg" alt="Movie 2">
+            <h3>Movie Title 2</h3>
+            <p>Description of the movie.</p>
+            <button class="watch-button">Watch</button>
+        </div>
+        <!-- Add more movie cards as needed -->
+    </section>
+
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <p>We are movie enthusiasts who love recommending great films to you.</p>
+        <img src="images/about-image.jpg" alt="About Us Image">
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Message"></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Movie Recommendations</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

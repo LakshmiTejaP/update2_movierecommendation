@@ -1,0 +1,64 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to various sections */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Improve contrast for navigation links */
+nav a {
+    text-decoration: none;
+    color: #fff; /* Change link color to white */
+    font-weight: bold; /* Optionally, make the text bold for better readability */
+}
+
+/* Increase contrast for navigation links on hover */
+nav a:hover {
+    color: #ff9900; /* Change link color on hover to a more noticeable color */
+}
+
+.section {
+    padding: 50px;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 24px;
+}
+
+.movie-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.movie-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Add more styles as needed */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
